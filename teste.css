@@ -27,23 +27,24 @@ body {
 .circle {
     position: absolute;
     border-radius: 50%;
-    opacity: 0.5;
 }
 
 .orange {
     width: 25rem;
     height: 25rem;
     background-color: #ffa500;
-    top: 40%;
+    background: linear-gradient(to bottom, #ff5f03, #ffe600);
+    top: 50%;
     left: 20%;
+    
 }
 
 .purple {
     width: 12em;
     height: 12rem;
     background-color: #af04ff;
-    top: 20%;
-    left: 49%;
+    top: 22%;
+    left: 40%;
 }
 
 .red {
@@ -59,7 +60,7 @@ body {
     height: 7rem;
     background-color: #13886b;
     top: 59%;
-    left: 53%;
+    left: 45%;
 }
 
 .login-container {
@@ -74,10 +75,11 @@ body {
     display: flex;
     height: 25rem;
     width: 50rem;
-    background: #ffffffe6;
-    backdrop-filter: blur(10px);
+    background-color: #bdbdbd;
     border-radius: 15px;
     overflow: hidden;
+    opacity: 0.9;
+    box-shadow: -5rem 5rem 5rem #5f5f5f9d;
 }
 
 .left-side {
@@ -97,6 +99,7 @@ body {
     }
 
 .left-side {
+    background-color: #ffffff;
     background: linear-gradient(to bottom, #50505033, #ffffff00);
     text-align: center;
 }
@@ -123,7 +126,7 @@ body {
     cursor: pointer;
     margin-bottom: 20px;
     color: #000000;
-    border-radius: 15px;
+    border-radius: 20px;
     font-weight: bold;
 }
 
@@ -131,6 +134,7 @@ body {
     display: flex;
     gap: 10px;
     margin-top: 10px;
+    justify-content: center;
 }
 
 .social-icons img {
@@ -140,11 +144,11 @@ body {
 }
 
 .right-side {
-    margin-top: 4rem;
+    
 }
 
 .right-content {
-
+    margin-top: 4rem;
 }
 
 .right-side h2 {
@@ -157,14 +161,16 @@ body {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    border-radius: 5px;
     border: 1px solid #cccccc;
+    border-radius: 20px;
+    border: 1px solid #000000;
 }
 
 .remember-me {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    justify-content: center;
 }
 
 .remember-me label {
@@ -173,12 +179,14 @@ body {
 }
 
 .login-button {
+    justify-content: center;
     background-color: #000000;
     color: #fff;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
+    width: 100%;
+    border-radius: 20px;
 }
 
 .login-tab {
@@ -186,8 +194,7 @@ body {
     top: 20px;
     right: 20px;
     background: #fff;
-    border: 1px solid #000000;
     padding: 5px 10px;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
 }
